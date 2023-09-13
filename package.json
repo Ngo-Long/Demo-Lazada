@@ -1,0 +1,19 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "ag-grid-community": "^30.1.0",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1"
+  }
+}
