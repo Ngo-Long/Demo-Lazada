@@ -7,7 +7,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        postDetail: resolve(__dirname, 'post-detail.html'),
       },
     },
   },
