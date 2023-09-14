@@ -1,6 +1,5 @@
 #header {
   height: 115px;
-  z-index: 1;
   background: #fff;
 }
 
@@ -8,12 +7,12 @@
   position: sticky;
   top: -25px;
   height: 100px;
+  z-index: 100;
 }
 
 .links-bar {
   height: 25px;
   background-color: #f5f5f5;
-  z-index: 2;
 }
 
 .links-bar__list {
@@ -133,7 +132,6 @@
   position: absolute;
   top: 100%;
   left: 0;
-  right: 0;
   width: 100%;
   font-weight: 400;
 
@@ -141,7 +139,7 @@
   border-radius: 3px;
   padding: 12px 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
-  z-index: 10;
+  z-index: 100;
 }
 
 .history-content {
@@ -202,7 +200,6 @@
 }
 
 .carousel-inner {
-  z-index: -1;
 }
 
 .carousel-indicators button {
@@ -223,7 +220,6 @@
   height: 344px;
   background-color: #fff;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
-  z-index: 10;
 }
 
 .nav-menu__list {
@@ -276,7 +272,7 @@
 }
 
 .card-carousel {
-  z-index: 10;
+  z-index: 1;
   width: calc(1188px - 200px);
 }
 
